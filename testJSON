@@ -1,0 +1,43 @@
+var config = [
+   {
+    type: 'row',
+    order: 1,
+    tiles: [
+     {
+      order: 1,
+      width: 1,
+      alias: 'earnings.header'
+     }
+    ]
+   },
+   {
+    type: 'row',
+    order: 2,
+    tiles: [
+     {      
+      order: 1,
+      width: 1,
+      tiles: [
+       {
+        type: 'row',
+        order: 1,
+        width: 1,
+        alias: 'earnings.mtd',
+        border: 'bottom'
+       },{
+        type: 'row',
+        order: 2,
+        width: 1,
+        alias: 'earnings.comPaid'
+       }
+      ]
+     },
+     {
+      order: 2,
+      width: 2,
+      alias: 'earnings.other',
+      border: 'left'
+     }
+    ]
+   }
+  ];
