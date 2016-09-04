@@ -2,13 +2,7 @@ var config = [
    {
     type: 'row',
     order: 1,
-    tiles: [
-     {
-      order: 1,
-      width: 1,
-      alias: 'earnings.header'
-     }
-    ]
+    tiles: []
    },
    {
     type: 'row',
